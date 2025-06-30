@@ -2,8 +2,8 @@ export default [
    {
     title: 'GCET 7th CSE_Minors 2025',
     description:
-      'CSE 7th 7th CSE_Minors for the information of the students',
-    url: 'https://docs.google.com/spreadsheets/d/1WjD-lPmKH0tnUBkqFHMpLqVqcAJWB0Bo/edit?gid=732800756#gid=732800756',
+      '7th CSE_Minors for the information of the students',
+    url: 'https://drive.google.com/file/d/1OZoLIPqGUEi1Bkf9FDoXal8WAU849iAY/edit',
     image: 'assets/poetry.png',
     publised_date: '2025-06-25',
   },
