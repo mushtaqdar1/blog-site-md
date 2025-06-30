@@ -1,4 +1,12 @@
 export default [
+   {
+    title: 'GCET 7th CSE_Minors 2025',
+    description:
+      'CSE 7th 7th CSE_Minors for the information of the students',
+    url: 'https://docs.google.com/spreadsheets/d/1WjD-lPmKH0tnUBkqFHMpLqVqcAJWB0Bo/edit?gid=732800756#gid=732800756',
+    image: 'assets/poetry.png',
+    publised_date: '2025-06-25',
+  },
   {
     title: 'Tutorial_1 for the Python programming course scheduled',
     description: 'on April 21, 2025, Venue-CS1, Timing: 10:15am',
