@@ -30,11 +30,11 @@ const AboutPage = () => {
             Work Experiences
           </h3>
           <ol className="list-inside space-y-1">
-            <li>Govt Women's Polytechnic Bemina: Nov 2010 - Nov 2011</li>
+            <li>Govt Womens Polytechnic Bemina: Nov 2010 - Nov 2011</li>
              <li>JK Sainik School Manasbal: Apr 2012 - Nov 2014</li>
             <li>Chandigarh: Feb 2015 - Feb 2016</li>
             <li>Kashmir University: Mar 2016 - Jan 2019</li>
-            <li>DST, New Delhi: May 2022 - Mar 2023</li>
+            <li>DST New Delhi: May 2022 - Mar 2023</li>
             <li>GDC Sogam Kashmir: Mar 2023- Apr 2023</li>
              <li>GDC Khansahib Budgam: Apr 2023 - Dec 2023</li>
             <li>GCET Kashmir: Feb 2024 - June 2025</li>
