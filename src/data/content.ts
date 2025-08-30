@@ -1,5 +1,43 @@
-export default [
-   {
+import React from 'react';
+import Marquee from 'react-fast-marquee';
+
+interface Announcement {
+  title: string;
+  description: string;
+  url: string;
+  image: string;
+  publised_date: string;
+}
+
+export function BlogPage(): JSX.Element {
+  return (
+    <>
+      <Marquee speed={50} gradient={false}>
+        <h1>Welcome to the Announcements Page!</h1>
+        {announcements.map((item: Announcement, index: number) => (
+          <a
+            key={index}
+            href={item.url}
+            style={{ marginRight: '40px', textDecoration: 'none' }}
+          >
+            <strong>{item.title}</strong>: {item.description}
+          </a>
+        ))}
+      </Marquee>
+    </>
+  );
+}
+
+const announcements: Announcement[] = [
+  {
+    title: 'B.Tech 3rd',
+    description:
+      'SEMESTER_3 CSE_GOOGLE CLASS for  students',
+    url: 'https://classroom.google.com/c/Nzc1MDA0MDM2ODg1,
+    image: 'assets/poetry.png',
+    publised_date: '2025-06-25',
+  },
+  {
     title: 'GCET 7th CSE_Minors 2025',
     description:
       '7th CSE_Minors for the information of the students',
@@ -39,3 +77,5 @@ export default [
     publised_date: '2025-05-10',
   },
 ];
+
+export default announcements;
