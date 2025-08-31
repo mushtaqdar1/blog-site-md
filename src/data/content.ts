@@ -1,6 +1,3 @@
-import React from 'react';
-import Marquee from 'react-fast-marquee';
-
 interface Announcement {
   title: string;
   description: string;
@@ -9,31 +6,12 @@ interface Announcement {
   publised_date: string;
 }
 
-export function BlogPage(): JSX.Element {
-  return (
-    <>
-      <Marquee speed={50} gradient={false}>
-        <h1>Welcome to the Announcements Page!</h1>
-        {announcements.map((item: Announcement, index: number) => (
-          <a
-            key={index}
-            href={item.url}
-            style={{ marginRight: '40px', textDecoration: 'none' }}
-          >
-            <strong>{item.title}</strong>: {item.description}
-          </a>
-        ))}
-      </Marquee>
-    </>
-  );
-}
-
 const announcements: Announcement[] = [
   {
     title: 'B.Tech 3rd',
     description:
       'SEMESTER_3 CSE_GOOGLE CLASS for  students',
-    url: 'https://classroom.google.com/c/Nzc1MDA0MDM2ODg1,
+    url: 'https://classroom.google.com/c/Nzc1MDA0MDM2ODg1',
     image: 'assets/poetry.png',
     publised_date: '2025-06-25',
   },
